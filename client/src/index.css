@@ -1,0 +1,43 @@
+button:hover {
+  cursor: pointer;
+}
+
+.listone {
+  width: 200px;
+}
+.box {
+  background-color: #eeeeee;
+  flex-direction: column;
+  z-index: 20;
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: 130px;
+  left: 1250px;
+  cursor: grab;
+  border-radius: 30px;
+  padding: 40px;
+  margin: auto;
+  user-select: none;
+}
+
+.main {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.mainbar {
+  background-color: rgba(34, 40, 49);
+  height: 80px;
+}
+.employees {
+  background: #393e46;
+  height: fit-content;
+}
+.line {
+  background-color: #00adb5;
+  align-items: center;
+}
+.card {
+  border: 1px solid black;
+}
